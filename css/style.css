@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  margin: 90px;
+  background: url(img/b.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.container {
+  padding: 50px;
+  position: absolute;
+  width: 900px;
+  border-radius: 50px;
+  background: #080808;
+  margin-left: 200px;
+  box-shadow: 29px 29px 58px #070707, -10px -10px 58px rgb(7, 7, 7);
+  opacity: 0.6;
+}
+h1 {
+  margin-left: 280px;
+  font-size: 48px;
+  color: #ffffff;
+}
+#add {
+  position: absolute;
+  display: inline;
+  text-align: center;
+  margin-left: 210px;
+  display: inline-block;
+  font-size: 28px;
+  border-radius: 8px;
+  border-radius: 20px;
+  background: #faf8f9;
+  box-shadow: 10px 8px 58px #f7f5f7, -20px -20px 58px #ffffff;
+  padding: 10px;
+}
+
+#adding {
+  border-radius: 20px;
+  box-shadow: 29px 29px 58px #cfc0c0, -29px -29px 58px #ffffff;
+  margin-left: 120px;
+  display: none;
+}
+#result {
+  margin-left: 160px;
+}
+li {
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-left: 10px;
+  width: 380px;
+  height: 24px;
+  background-color: rgb(0, 12, 12);
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  position: relative;
+  color: white;
+  font-size: larger;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+button {
+  padding: 12px 30px;
+  border-radius: 14px;
+  cursor: pointer;
+}
+#todo {
+  width: 380px;
+  height: 36px;
+  border-radius: 10px;
+  font-size: larger;
+  border-color: rgb(243, 247, 247);
+}
+
+#sub {
+  background-color: white;
+  color: black;
+  border: 2px solid #fbfdfb;
+}
+#sub:hover {
+  background-color: #f6faf7;
+  color: wheat;
+  border: 2px solid white;
+}
+#remove {
+  background-color: white;
+  color: black;
+  border: 2px solid red;
+}
+#remove:hover {
+  background-color: red;
+  color: wheat;
+  border: 2px solid white;
+}
+#plus,
+#close {
+  cursor: pointer;
+}
+#close {
+  display: none;
+}
